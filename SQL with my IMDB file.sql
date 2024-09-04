@@ -69,3 +69,36 @@ select Title, Directors, revenue, income
 from `3a319ae7-11bf-4044-a60c-afc77cb280ba`
 join `table 2`
 on `meraj imdb`.`3a319ae7-11bf-4044-a60c-afc77cb280ba` =`meraj imdb`.`table 2`
+
+##Basic Arithmetic Queries
+1. Addition: 
+ SELECT column1 + column2 AS Addition
+ FROM table_name;
+ 
+2. Subtraction: 
+ SELECT column1 - column2 AS Subtraction
+ FROM table_name;
+ 
+3. Multiplication: 
+ SELECT column1 * column2 AS Multiplication
+ FROM table_name;
+ 
+4. Division: 
+ SELECT column1 / column2 AS Division
+ FROM table_name;
+ 
+5. Sum: 
+ SELECT SUM(column_name) AS Total
+ FROM table_name;
+ 
+6. Average: 
+ SELECT AVG(column_name) AS Average
+ FROM table_name;
+7. Max: 
+ SELECT MAX(column_name) AS Maximum
+ FROM table_name;
+ 
+8. Min: 
+ SELECT MIN(column_name) AS Minimum
+ FROM table_name;
+ 
